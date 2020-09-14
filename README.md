@@ -1,2 +1,2 @@
 # rsschool-cv
-https://Activx-nV.github.io/rsschool-cv/cv
+https://Activx-nV.github.io/rsschool-cv/
