@@ -9,7 +9,7 @@ _E-mail_: **laurikamm@gmail.com**
 
 _Discord_: **.45PWNZ乡#6341**
 
-_Github__: **https://github.com/Activx-nV**
+_Github_: **https://github.com/Activx-nV**
 
 **Estonia, Tallinn**
 
