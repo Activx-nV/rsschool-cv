@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
     <title>CV</title>
+
     <style>
         body {
-            background: url(https://i.pinimg.com/originals/10/23/f3/1023f32557e2d5aa8f2eb18b2ea7b9f7.jpg);
+            background: url(borealis-bg.jpg);
             background-size: auto;
             background: cover;
         }
 
-        .main {
-            height: 1780px;
+        .container {
+            height: 2060px;
             width: 1400px;
             background: whitesmoke;
-            opacity: 0.96;
+            opacity: 0.70;
             margin: 0 auto;
             padding-top: 10px;
             text-align: center;
@@ -26,7 +29,7 @@
 
             font-size: 19px;
             position: relative;
-            bottom: 8px;
+            bottom: 9px;
         }
 
         p {
@@ -38,73 +41,107 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             padding: 20px 0px 20px 0px;
         }
+
+        .web-dev-word {
+            text-decoration: underline;
+        }
+
+        .avatar {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 
 <body>
-    <div class="main">
+    <div class="container">
         <header class="header">
             <h1>Lauri Kammonen</h1>
             <p><em>Junior Javascript Developer</em></p>
+            <img src="avatar.jpg" alt="avatar" class="avatar">
         </header>
+        <div class="main">
 
-        <hr>
-
-        <h2>Contacts</h2>
-        <p><strong>E-mail:</strong> <em>laurikamm@gmail.com</em></p>
-        <p><strong>Discord:</strong> <em>.45PWNZ乡#6341</em></p>
-        <p><strong>Github:</strong> <em></em><a href="https://github.com/Activx-nV">Follow the link</a></em>
-        </p>
-        <p><strong>Estonia, Tallinn</strong></p>
-
-        <hr>
-
-        <h2>Professional summary</h2>
-
-        <p>An <em>enthusiastic</em>, <em>motivated</em> and <em>hard-working</em> young man, who is bonding his life
-            with
-            <span style="text-decoration: underline">Web-Development</span>
-            and a passion for creating <i>elegant</i> solutions in the least amount of time.</p>
-        Able to <em>quickly learn</em> and <em>learn new knowledge</em> to apply in practice.</p>
-        <h4 style="position: relative; top: 15px">Education</h4>
-        <p style="position: relative; top: 5px">2015-2018, Mechatronics</p>
-        <p>Tallinna Tööstushariduskeskus</p>
-        <h4>Languages</h4>
-        <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">English - B2</p>
-        <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">Russian - Native</p>
-        <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">Estonian - B2</p>
-        <h4>Also <em>courses</em> worth to mention, that been finished</h4>
-        <p style=" font-size: 15px; line-height: 10px">Basics of programming based on C#, IATI AS</p>
-        <p style="font-size: 15px; line-height: 5px">Javascript 2.0, ITGID</p>
-        <p style="font-size: 15px; line-height: 5px">ReactJS, ITGID</p>
-        <p style="font-size: 15px; line-height: 5px">HTML and CSS for JS Developers, ITGID</p>
-        <p style="font-size: 15px; line-height: 5px">Probation from GeekBrains on ethical hacking, GeekBrains</p>
-        <p style="font-size: 15px; line-height: 5px">Web development. Quick start, GeekBrains</p>
-        <p style="font-size: 15px; line-height: 5px">TCP/IP stack, GeekBrains</p>
-        <p style="font-size: 15px; line-height: 5px">Introduction to Programming, GeekBrains</p>
-        <p style="font-size: 15px; line-height: 5px">Attack and protection of web and mobile applications, GeekBrains
-        </p>
-        <p style="font-size: 15px; line-height: 5px">Ethical hacker, GeekBrains</p>
-        <hr>
-        <h2>Soft skills</h2>
-        <i>Leadership, Assiduity, Communication, Problem solving, Adaptability, Optimism, Responsiveness, Ability to
-            prioritize
-            and
-            achieve goals.</i>
-
-        <h2>Hard skills</h2>
-        <ul style="line-height: 35px; list-style: none; position: relative; left: -17px">
-            <li>Javascript</li>
-            <li>ReactJS</li>
-            <li>Fundamentals of C#</li>
-            <li>BootStrap</li>
-            <li>HTML 5</li>
-            <li>CSS/SASS</li>
-            <li>Git</li>
             <hr>
-            <li style="color: grey">More soon...</li>
-        </ul>
-        <footer style="background-color: orange">Copyright 2020-2020</footer>
+            <section>
+                <h2>Contacts</h2>
+                <p><strong>E-mail:</strong> <em>laurikamm@gmail.com</em></p>
+                <p><strong>Discord:</strong> <em>.45PWNZ乡#6341</em></p>
+                <p><strong>Github:</strong> <em><a href="https://github.com/Activx-nV">github.com/Activx-nV</a></em>
+                </p>
+                <p><strong>Estonia, Tallinn</strong></p>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Professional summary</h2>
+
+                <p>An <em>enthusiastic</em>, <em>motivated</em> and <em>hard-working</em> young man, who is bonding his
+                    life
+                    with
+                    <span class="web-dev-word">Web-Development</span>
+                    and a passion for creating <i>elegant</i> solutions in the least amount of time.</p>
+                <p>Able to <em>quickly learn</em> and <em>learn new knowledge</em> to apply in practice.</p>
+            </section>
+
+            <section>
+                <h4 style="position: relative; top: 15px">Education</h4>
+                <p style="position: relative; top: 5px">2015-2018, Mechatronics</p>
+                <p>Tallinna Tööstushariduskeskus</p>
+            </section>
+
+            <section>
+                <h4>Languages</h4>
+                <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">English - B2</p>
+                <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">Russian - Native</p>
+                <p style="font-size: 15px; line-height: 15px; position: relative; bottom: 12px">Estonian - B2</p>
+            </section>
+
+            <section>
+                <h4><em>Courses</em> worth to mention, that been finished</h4>
+                <p style=" font-size: 15px; line-height: 10px">Basics of programming based on C#, IATI AS</p>
+                <p style="font-size: 15px; line-height: 5px">Javascript 2.0, ITGID</p>
+                <p style="font-size: 15px; line-height: 5px">ReactJS, ITGID</p>
+                <p style="font-size: 15px; line-height: 5px">HTML and CSS for JS Developers, ITGID</p>
+                <p style="font-size: 15px; line-height: 5px">Probation from GeekBrains on ethical hacking, GeekBrains
+                </p>
+                <p style="font-size: 15px; line-height: 5px">Web development. Quick start, GeekBrains</p>
+                <p style="font-size: 15px; line-height: 5px">TCP/IP stack, GeekBrains</p>
+                <p style="font-size: 15px; line-height: 5px">Introduction to Programming, GeekBrains</p>
+                <p style="font-size: 15px; line-height: 5px">Attack and protection of web and mobile applications,
+                    GeekBrains
+                </p>
+                <p style="font-size: 15px; line-height: 5px">Ethical hacker, GeekBrains</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Soft skills</h2>
+                <i>Leadership, Assiduity, Communication, Problem solving, Adaptability, Optimism, Responsiveness,
+                    Ability to
+                    prioritize
+                    and
+                    achieve goals.</i>
+
+                <h2>Hard skills</h2>
+                <ul style="line-height: 35px; list-style: none; position: relative; left: -17px">
+                    <li>Javascript</li>
+                    <li>ReactJS</li>
+                    <li>Fundamentals of C#</li>
+                    <li>BootStrap</li>
+                    <li>HTML 5</li>
+                    <li>CSS/SASS</li>
+                    <li>Git</li>
+                    <li style="color: grey">More soon...</li>
+                </ul>
+            </section>
+
+            <footer style="background-color: orange; display: flex; justify-content: center; align-items: center;">
+                Estonia,
+                Tallinn | laurikamm@gmail.com | +37256273614</footer>
+        </div>
     </div>
 </body>
 
